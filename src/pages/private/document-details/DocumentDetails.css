@@ -1,0 +1,50 @@
+.doc-details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: 100%;
+}
+
+.doc-details-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.doc-details-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.5rem;
+  flex: 1;
+}
+
+.doc-preview {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.metadata-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.metadata-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.metadata-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.metadata-value {
+  font-size: 1rem;
+  color: var(--text-main);
+}
